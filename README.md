@@ -5,11 +5,6 @@ From [@zacs](https://github.com/zacs)
 
 This component is a straightfoward fork of the Zac's `dualmode_generic`.
 
-## Installation (HACS) - Recommended
-0. Have [HACS](https://custom-components.github.io/hacs/installation/manual/) installed, this will allow you to easily update
-1. Add `https://github.com/zacs/ha-dualmodegeneric` as a [custom repository](https://custom-components.github.io/hacs/usage/settings/#add-custom-repositories) as Type: Integration
-2. Click install under "Dual Mode Generic Thermostat", restart your instance.
-
 ## Installation (Manual)
 1. Download this repository as a ZIP (green button, top right) and unzip the archive
 2. Copy `/custom_components/dualmode_generic` to your `<config_dir>/custom_components/` directory
