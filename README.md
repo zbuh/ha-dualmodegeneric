@@ -3,7 +3,7 @@
 From [@zacs](https://github.com/zacs)
 > Special thanks to [shandoosheri](https://community.home-assistant.io/t/heat-cool-generic-thermostat/76443) for getting this to work on older versions of Home Assistant, which gave me an easy blueprint to follow. And thanks [@kevinvincent](https://github.com/kevinvincent) for writing a nice `custom_component` readme for me to fork.
 
-This component is a straightfoward fork of the Zac's `dualmode_generic`.
+This component is a straightfoward fork of Zac's `dualmode_generic`.
 
 ## Installation (Manual)
 1. Download this repository as a ZIP (green button, top right) and unzip the archive
@@ -29,7 +29,7 @@ The component shares the same configuration variables as the standard `generic_t
 * A `cooler` variable has been added where you can specify the `entity_id` of your switch for a cooling unit (AC, fan, etc).
 * If the cooling and heating unit are the same device (e.g. a reverse cycle air conditioner) setting `reverse_cycle` to `true` will ensure the device isn't switched off entirely when switching modes
 * The `ac_mode` variable has been removed, since it makes no sense for this use case.
-* Rather that `target_temp`, this component uses `target_temp_low` for when activate heating and `target_temp_high` for when to activate cooling
+* Rather than `target_temp`, this component uses `target_temp_low` for when activate heating and `target_temp_high` for when to activate cooling
 
 Refer to the [Generic Thermostat documentation](https://www.home-assistant.io/components/generic_thermostat/) for details on the rest of the variables. This component doesn't change their functionality.
 
